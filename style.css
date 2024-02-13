@@ -1,3 +1,4 @@
+/*************** Reset *********************/
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +9,51 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+body {
+  background-color: white;
+  list-style: none;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: white;
+  color: black;
+}
+
+/* TEKST START*/
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: red;
+}
+
+@media (min-width: 800px) {
 }
