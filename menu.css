@@ -85,7 +85,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #fff;
+    background-color: #4e6e58;
     position: absolute;
     top: 60px;
     left: 0;
