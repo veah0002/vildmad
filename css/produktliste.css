@@ -1,0 +1,37 @@
+main {
+    background-image: url("../img/2svampe_baggrund.webp");
+    background-size: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 4%;
+}
+
+.boks_farve {
+    background-color: black;
+    background-color: #b5c9bb;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .boks_farve {
+        margin-top: 10%;
+    }
+
+}

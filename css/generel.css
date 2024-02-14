@@ -42,6 +42,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #304336;
+  font-size: 28px;
+}
+
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: black;
@@ -65,5 +71,4 @@ a:hover {
   margin-top: 50px;
 }
 
-@media (min-width: 800px) {
-}
+@media (min-width: 800px) {}
