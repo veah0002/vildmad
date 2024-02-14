@@ -5,22 +5,26 @@
 .overskrift {
     font-size: 100px;
     position: absolute;
-    left: 23rem;
-    top: 28rem;
+    left: 23%;
+    top: 60%
 }
 
 .farve_boks {
     background-color: #b5c9bb;
     padding: 4rem;
     margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .klik_boks {
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     padding: 3rem;
     max-width: 40rem;
     margin-top: 4rem;
     align-items: center;
+    border: solid #4E6E58 3px;
 }
 
 .outline_boks {
@@ -30,9 +34,17 @@
 
 .fluesvamp {
     max-width: 50%;
+    margin: auto;
+
 }
 
 .grid_1_1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    justify-content: center;
+    /* Centrer kolonner vandret */
+    align-items: center;
+    /* Centrer rækker lodret */
+    text-align: center;
+    /* Centrer teksten inden for <div> */
 }
