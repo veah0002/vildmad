@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: luckiest;
+  src: url(../font/luckiestguy-regular-webfont.woff2);
+}
+
 img {
   width: 100%;
   height: auto;
@@ -28,7 +33,7 @@ footer {
 
 /* TEKST START*/
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "luckiest";
   color: #b22f3f;
   font-size: 3rem;
   margin-top: 30px;
