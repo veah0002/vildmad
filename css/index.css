@@ -2,6 +2,10 @@
     position: relative;
 }
 
+a {
+    text-decoration: none;
+}
+
 .overskrift {
     font-size: 100px;
     position: absolute;
@@ -16,6 +20,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.klik_boks:hover {
+    background-color: #4E6E58;
 }
 
 .klik_boks {
