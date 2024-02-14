@@ -1,0 +1,38 @@
+.container {
+    position: relative;
+}
+
+.overskrift {
+    font-size: 100px;
+    position: absolute;
+    left: 23rem;
+    top: 28rem;
+}
+
+.farve_boks {
+    background-color: #b5c9bb;
+    padding: 4rem;
+    margin-top: 8rem;
+}
+
+.klik_boks {
+    background-color: #F3F3F3;
+    padding: 3rem;
+    max-width: 40rem;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.outline_boks {
+    border: solid #4E6E58 3px;
+    margin-top: 3rem;
+}
+
+.fluesvamp {
+    max-width: 50%;
+}
+
+.grid_1_1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+}
