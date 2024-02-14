@@ -42,9 +42,41 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
     justify-content: center;
-    /* Centrer kolonner vandret */
     align-items: center;
-    /* Centrer rækker lodret */
     text-align: center;
-    /* Centrer teksten inden for <div> */
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin: 2%;
+    }
+
+    .overskrift {
+        font-size: 30px;
+    }
+
+    .farve_boks {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .klik_boks {
+        padding: 1rem;
+        max-width: 90%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .outline_boks {
+        margin-top: 1rem;
+    }
+
+    .fluesvamp {
+        max-width: 100%;
+    }
+
+    .grid_1_1 {
+        grid-template-columns: 1fr;
+
+    }
 }
