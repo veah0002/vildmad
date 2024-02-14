@@ -28,11 +28,20 @@ h3 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
+h3:hover {
+    color: #B22F3F;
+}
+
 
 @media only screen and (max-width: 600px) {
 
     .boks_farve {
         margin-top: 10%;
+        margin: 3%;
     }
 
 }
