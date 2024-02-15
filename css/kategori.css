@@ -1,4 +1,67 @@
-.svamp {
+/*billede af 4 svampe og container dertil*/
+
+.container {
   position: relative;
-  height: -100px;
+  text-align: center;
+  margin-top: 100px;
+}
+/* .container img {
+  border-bottom: 2px solid #b22f3f;
+} */
+/*styling af h1*/
+.category {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -350%);
+  font-size: 40px;
+}
+/*styling af h2*/
+.mushrooms {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -430%);
+  color: #b22f3f;
+  font-size: 1.5rem;
+}
+
+.categorymenu {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  max-width: 400px;
+  margin-top: 80px;
+}
+
+.categorymenu div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  border-bottom: 2px solid #b22f3f;
+  margin-left: 20px;
+}
+
+.categorymenu img {
+  width: 140px;
+  height: 140px;
+}
+
+.categorymenu a {
+  text-decoration: none;
+  align-items: end;
+  color: #4e6e58;
+}
+
+.categorymenu a:hover {
+  color: #0c1910;
+  text-decoration: none;
+  align-items: end;
+}
+
+.categorymenu h2 {
+  margin-left: 30px;
+  font-size: 1.2rem;
 }
