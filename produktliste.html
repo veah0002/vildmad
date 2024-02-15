@@ -1,51 +1,84 @@
 <!DOCTYPE html>
 <html lang="da">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
-    <link rel="stylesheet" href="css/generel.css">
-    <link rel="stylesheet" href="css/menu.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="css/produktliste.css" />
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <title>Productlist</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo.webp" alt="Logo">
-            </a>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.webp" alt="Logo" />
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="kategori.html">Categori</a></li>
+          <li><a href="produktliste.html">Productlist</a></li>
+          <li><a href="produkt.html">Product</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
         </div>
-        <nav>
-            <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="kategori.html">Categori</a></li>
-                <li><a href="produktliste.html">Productlist</a></li>
-                <li><a href="produkt.html">Product</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </nav>
+      </nav>
     </header>
     <main>
-        <h1>Productlist</h1>
-
+      <h1>FALL</h1>
+      <h1>MUSHROOM</h1>
+      <section class="grid">
+        <template id="mushroomTemplate">
+          <a class="klikVidere" href="produkt.html">
+            <article class="klik_svamp">
+              <div class="boks_farve">
+                <img src="img/svampprodukt.webp" alt="" />
+                <h3>Oyster Mushroom</h3>
+              </div>
+            </article>
+          </a>
+        </template>
+        <a class="klikVidere" href="produkt.html">
+          <article class="klik_svamp">
+            <div class="boks_farve">
+              <img src="img/svampprodukt.webp" alt="" />
+              <h3>Oyster Mushroom</h3>
+            </div>
+          </article>
+        </a>
+        <a class="klikVidere" href="produkt.html">
+          <article class="klik_svamp">
+            <div class="boks_farve">
+              <img src="img/svampprodukt.webp" alt="" />
+              <h3>Oyster Mushroom</h3>
+            </div>
+          </article>
+        </a>
+        <a class="klikVidere" href="produkt.html">
+          <article class="klik_svamp">
+            <div class="boks_farve">
+              <img src="img/svampprodukt.webp" alt="" />
+              <h3>Oyster Mushroom</h3>
+            </div>
+          </article>
+        </a>
+      </section>
     </main>
     <footer class="footer">
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/logo.webp" alt="Logo">
-            </a>
-        </div>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/logo.webp" alt="Logo" />
+        </a>
+      </div>
     </footer>
     <script src="js/produktliste.js"></script>
     <script src="js/menu.js"></script>
-</body>
-
-
-
+  </body>
 </html>

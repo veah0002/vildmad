@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: luckiest;
+  src: url(../font/luckiestguy-regular-webfont.woff2);
+}
+
 img {
   width: 100%;
   height: auto;
@@ -28,7 +33,7 @@ footer {
 
 /* TEKST START*/
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "luckiest";
   color: #b22f3f;
   font-size: 3rem;
   margin-top: 30px;
@@ -40,6 +45,12 @@ h2 {
   font-size: 2rem;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #304336;
+  font-size: 28px;
 }
 
 p {
@@ -62,8 +73,7 @@ a:hover {
   background-color: #4e6e58;
   color: white;
   padding: 50px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
-@media (min-width: 800px) {
-}
+@media (min-width: 800px) {}
