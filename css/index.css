@@ -1,90 +1,88 @@
 .container {
-    position: relative;
+  position: relative;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .overskrift {
-    font-size: 100px;
-    position: absolute;
-    left: 23%;
-    top: 60%
+  font-size: 100px;
+  position: absolute;
+  left: 23%;
+  top: 60%;
 }
 
 .farve_boks {
-    background-color: #b5c9bb;
-    padding: 4rem;
-    margin-top: 8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background-color: #b5c9bb;
+  padding: 4rem;
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .klik_boks:hover {
-    background-color: #4E6E58;
+  background-color: #4e6e58;
 }
 
 .klik_boks {
-    background-color: #f3f3f3;
-    padding: 3rem;
-    max-width: 40rem;
-    margin-top: 4rem;
-    align-items: center;
-    border: solid #4E6E58 3px;
+  background-color: #f3f3f3;
+  padding: 3rem;
+  max-width: 40rem;
+  margin-top: 4rem;
+  align-items: center;
+  border: solid #4e6e58 3px;
 }
 
 .outline_boks {
-    border: solid #4E6E58 3px;
-    margin-top: 3rem;
+  border: solid #4e6e58 3px;
+  margin-top: 3rem;
 }
 
 .fluesvamp {
-    max-width: 50%;
-    margin: auto;
-
+  max-width: 50%;
+  margin: auto;
 }
 
 .grid_1_1 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
-    main {
-        margin: 2%;
-    }
+  main {
+    margin: 2%;
+  }
 
-    .overskrift {
-        font-size: 30px;
-    }
+  .overskrift {
+    font-size: 30px;
+  }
 
-    .farve_boks {
-        padding: 1rem;
-        margin-top: 2rem;
-    }
+  .farve_boks {
+    padding: 1rem;
+    margin-top: 2rem;
+  }
 
-    .klik_boks {
-        padding: 1rem;
-        max-width: 90%;
-        margin-top: 1rem;
-        text-align: center;
-    }
+  .klik_boks {
+    padding: 1rem;
+    max-width: 90%;
+    margin-top: 1rem;
+    text-align: center;
+  }
 
-    .outline_boks {
-        margin-top: 1rem;
-    }
+  .outline_boks {
+    margin-top: 1rem;
+  }
 
-    .fluesvamp {
-        max-width: 70%;
-    }
+  .fluesvamp {
+    max-width: 70%;
+  }
 
-    .grid_1_1 {
-        grid-template-columns: 1fr;
-
-    }
+  .grid_1_1 {
+    grid-template-columns: 1fr;
+  }
 }
