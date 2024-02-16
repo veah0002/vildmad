@@ -5,6 +5,7 @@ header {
   padding: 20px;
   background-color: #4e6e58;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "poppins", sans-serif;
 }
 
 .logo img {
