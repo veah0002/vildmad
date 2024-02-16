@@ -19,6 +19,7 @@ img {
 body {
   background-color: #fbf8f5;
   list-style: none;
+  font-family: "poppins", sans-serif;
 }
 
 main {
@@ -40,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins", sans-serif;
   color: #4e6e58;
   font-size: 2rem;
   margin-top: 10px;
@@ -48,19 +49,19 @@ h2 {
 }
 
 h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins", sans-serif;
   color: #304336;
   font-size: 28px;
 }
 
 p {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins", sans-serif;
   color: black;
   font-size: 1rem;
 }
 
 a {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins", sans-serif;
   color: black;
   font-size: 1rem;
 }
@@ -76,4 +77,5 @@ a:hover {
   margin-top: 150px;
 }
 
-@media (min-width: 800px) {}
+@media (min-width: 800px) {
+}
