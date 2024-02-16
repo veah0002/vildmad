@@ -35,6 +35,10 @@
   /* border-radius: 10px; */
 }
 
+.overskrift {
+  position: absolute;
+}
+
 .produkt-beskrivelse::before {
   content: "";
   position: absolute;
