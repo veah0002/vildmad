@@ -13,7 +13,8 @@ main {
     background-color: black;
     background-color: #b5c9bb;
     padding: 20px;
-    margin-top: 20%;
+    height: 45rem;
+    margin-top: 15%;
 }
 
 .boks_farve:hover {
