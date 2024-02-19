@@ -1,11 +1,9 @@
-fetch("https://oqxpqyntqutkvwkzxvju.supabase.co/rest/v1/vild_mad", {
-  method: "GET",
-  headers: {
-    apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9xeHBxeW50cXV0a3Z3a3p4dmp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc4MjkzNTAsImV4cCI6MjAyMzQwNTM1MH0.vKE6NAOQc3KfnX6D2uEpMzA7YrKmdbvnbv7deknPEPs",
-  },
-})
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+
+fetch("https://oqxpqyntqutkvwkzxvju.supabase.co/rest/v1/vild_mad?id=" + id)
   .then((response) => response.json())
-  .then((data) => showItem(data));
+  .then((data) => showProduct(data));
 
 function showItem(item) {
   console.log(item);
