@@ -1,14 +1,13 @@
 /*billede af 4 svampe og container dertil*/
 
-.container {
+.container img {
   position: relative;
   text-align: center;
   margin-top: 100px;
+  width: 300px;
+  margin-left: 10px;
 }
-/* .container img {
-  border-bottom: 2px solid #b22f3f;
-} */
-/*styling af h1*/
+
 .category {
   position: absolute;
   top: 50%;
@@ -74,12 +73,11 @@
     position: relative;
     text-align: center;
     margin-top: 100px;
+    width: 100px;
+    height: 400px;
+    margin-left: 70px;
   }
 
-  /* .container img {
-  border-bottom: 2px solid #b22f3f;
-} */
-  /*styling af h1*/
   .category {
     position: absolute;
     top: 50%;
