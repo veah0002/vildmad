@@ -1,5 +1,7 @@
 .container {
   position: relative;
+  padding: 20%;
+  margin-top: -15%;
 }
 
 a {
@@ -10,7 +12,7 @@ a {
   font-size: 100px;
   position: absolute;
   left: 23%;
-  top: 60%;
+  top: 80%;
 }
 
 .farve_boks {
@@ -60,6 +62,8 @@ a {
 
   .overskrift {
     font-size: 30px;
+    left: 2px;
+    text-align: center;
   }
 
   .farve_boks {
