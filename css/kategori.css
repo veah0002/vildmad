@@ -27,7 +27,7 @@
   justify-content: center;
   align-items: end;
   text-align: end;
-  width: 900px;
+  width: 850px; /*længde på streg under menu-tekst*/
   border-bottom: 2px solid #b22f3f;
   /* text-decoration: none; */
   padding: 10px 0;
