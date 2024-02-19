@@ -76,6 +76,10 @@ footer {
   padding: 50px;
   margin-top: 150px;
 }
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
 
 @media (min-width: 800px) {
 }
