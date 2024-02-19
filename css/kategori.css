@@ -1,11 +1,11 @@
 /*billede af 4 svampe og container dertil*/
 
-.container img {
+img {
   position: relative;
   text-align: center;
-  margin-top: 100px;
-  width: 300px;
-  margin-left: 10px;
+  margin-top: 20px;
+  width: 70px;
+  height: auto;
 }
 
 .category {
