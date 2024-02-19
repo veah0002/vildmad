@@ -11,7 +11,7 @@ main {
   background-color: black;
   background-color: #b5c9bb;
   padding: 20px;
-  height: 45rem;
+  height: 31rem;
   margin-top: 15%;
 }
 
@@ -20,7 +20,9 @@ main {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
+  align-items: center;
+  margin-left: 60px;
 }
 
 h1 {
@@ -29,6 +31,7 @@ h1 {
 
 h3 {
   text-align: center;
+  margin-top: -15%;
 }
 
 a {
