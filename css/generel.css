@@ -72,9 +72,11 @@ a:hover {
 
 footer {
   background-color: #4e6e58;
-  /* color: white; */
   padding: 50px;
   margin-top: 150px;
+}
+.logo img {
+  transform: scale(2);
 }
 .grid-1-1 {
   display: grid;
