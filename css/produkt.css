@@ -63,5 +63,6 @@
   .produkt-info,
   .produkt-beskrivelse {
     margin: 30px;
+    height: 375px;
   }
 }
