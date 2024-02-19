@@ -69,7 +69,7 @@ img {
 /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
 /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
 @media screen and (max-width: 768px) {
-  .container {
+  img {
     position: relative;
     text-align: center;
     margin-top: 100px;
