@@ -39,11 +39,6 @@
   position: absolute;
 }
 
-.grid-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 /* .produkt-beskrivelse::before {
   content: "";
   position: absolute;
