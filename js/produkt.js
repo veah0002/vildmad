@@ -22,6 +22,6 @@ function showItem(item) {
   document.querySelector(".location1").textContent = item[0].location;
   document.querySelector(".season").textContent = item[0].month;
   document.querySelector(".beskrivelse").textContent = item[0].description;
-  //   document.querySelector("img").src = item[0].image;
-  document.querySelector("img").href = `./img/${item.image}`;
+  //   document.querySelector(".produkt-billede").src = item[0].image;
+  document.querySelector(".produkt-billede").src = `./img/${item.image}`;
 }
