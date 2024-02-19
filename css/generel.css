@@ -76,13 +76,29 @@ footer {
   padding: 50px;
   margin-top: 150px;
 }
+
 .logo img {
   transform: scale(2);
 }
+
 .grid-1-1 {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
+
+form p {
+  color: white;
+}
+
+form label {
+  color: white;
+}
+
+form button {
+  background-color: #b5c9bb;
+  color: #4e6e58;
+}
+
 
 @media (min-width: 800px) {
   p {
