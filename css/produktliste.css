@@ -9,7 +9,6 @@ main {
 
 .boks_farve {
     position: relative;
-    /* background-color: black; */
     background-color: #b5c9bb;
     padding: 20px;
     height: 31rem;
@@ -19,13 +18,8 @@ main {
 .boks_farve h3 {
     position: absolute;
     bottom: 15px;
-    /* Juster afstanden fra bunden efter behov */
     left: 50%;
-    /* Centrerer vandret */
     transform: translateX(-50%);
-    /* Centrerer vandret */
-    margin: 0;
-    /* Fjern standardmarginen fra h3 for en renere visning */
 }
 
 .boks_farve:hover {
@@ -37,6 +31,7 @@ img {
     align-items: center;
     margin-left: 60px;
     margin-top: 30px;
+
 }
 
 h1 {
