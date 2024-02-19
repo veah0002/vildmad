@@ -1,47 +1,59 @@
 main {
-  background-image: url("../img/2svampe_baggrund.webp");
+    background-image: url("../img/2svampe_baggrund.webp");
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
 
 .boks_farve {
-  background-color: black;
-  background-color: #b5c9bb;
-  padding: 20px;
-  height: 31rem;
-  margin-top: 15%;
+    position: relative;
+    /* background-color: black; */
+    background-color: #b5c9bb;
+    padding: 20px;
+    height: 31rem;
+    margin-top: 15%;
+}
+
+.boks_farve h3 {
+    position: absolute;
+    bottom: 15px;
+    /* Juster afstanden fra bunden efter behov */
+    left: 50%;
+    /* Centrerer vandret */
+    transform: translateX(-50%);
+    /* Centrerer vandret */
+    margin: 0;
+    /* Fjern standardmarginen fra h3 for en renere visning */
 }
 
 .boks_farve:hover {
-  opacity: 50%;
+    opacity: 50%;
 }
 
 img {
-  max-width: 60%;
-  align-items: center;
-  margin-left: 60px;
-  margin-top: 30px;
+    max-width: 60%;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 30px;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
 h3 {
-  text-align: center;
-  margin-top: -15%;
+    text-align: center;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 @media (min-width: 600px) {
-  .boks_farve {
-    margin-top: 10%;
-    margin: 3%;
-  }
+    .boks_farve {
+        margin-top: 10%;
+        margin: 3%;
+    }
 }
