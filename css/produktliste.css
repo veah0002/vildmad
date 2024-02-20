@@ -19,6 +19,7 @@ main {
     position: absolute;
     bottom: 15px;
     left: 50%;
+    text-align: center;
     transform: translateX(-50%);
 }
 
