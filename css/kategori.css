@@ -1,7 +1,9 @@
 /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
 /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
 /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
-
+main {
+  background-image: url("../img/2svampe_baggrund.webp");
+}
 /*billede af 4 svampe og container dertil*/
 .svampebaggund {
   width: 700px;
@@ -111,4 +113,5 @@
     text-decoration: none;
     align-items: end;
   }
+  
 }
