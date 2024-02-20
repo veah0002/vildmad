@@ -17,11 +17,16 @@ img {
 }
 
 html {
-  --primary: black; /*tekst*/
-  --secondary: #fbf8f5; /*body*/
-  --tertiary: #4e6e58; /*h2*/
-  --quaternary: #b22f3f; /*h1*/
-  --quinary: #304336; /*h3*/
+  --primary: black;
+  /*tekst*/
+  --secondary: #fbf8f5;
+  /*body*/
+  --tertiary: #4e6e58;
+  /*h2*/
+  --quaternary: #b22f3f;
+  /*h1*/
+  --quinary: #304336;
+  /*h3*/
 
   --primary-font: " poppins", sans-serif;
   --secondary-font: "luckiest";
@@ -81,9 +86,9 @@ a {
   font-size: var(--quaternary-font-size);
 }
 
-a:hover {
-  color: red;
-}
+/* a:hover {
+  color: #b5c9bb;
+} */
 
 footer {
   background-color: var(--tertiary);
@@ -122,6 +127,7 @@ main {
     font-size: var(--quinary-font-size);
     line-height: var(--primary-line-height);
   }
+
   main {
     margin: 120px;
   }
