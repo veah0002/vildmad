@@ -5,7 +5,7 @@
 .container img {
   height: auto;
   width: 700px;
-  margin-left: 320px;
+  margin-left: 250px;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
 .overskrift {
   font-size: 100px;
   position: absolute;
-  left: 23%;
+  left: 18%;
   top: 80%;
 }
 .overskrift h1 {
