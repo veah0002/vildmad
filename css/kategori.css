@@ -1,9 +1,15 @@
-/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
-/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
-/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
-main {
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/*DESKTOP*/
+/* main {
   background-image: url("../img/2svampe_baggrund.webp");
-}
+} */
 /*billede af 4 svampe og container dertil*/
 .svampebaggund {
   width: 700px;
@@ -29,7 +35,8 @@ main {
   justify-content: center;
   align-items: end;
   text-align: end;
-  width: 850px; /*længde på streg under menu-tekst*/
+  width: 850px;
+  /*længde på streg under menu-tekst*/
   border-bottom: 2px solid #b22f3f;
   /* text-decoration: none; */
   padding: 10px 0;
@@ -40,6 +47,7 @@ main {
 .categorymenu h2 {
   font-size: 1.2rem;
 }
+
 /*svampe-billeder i menu*/
 .categorymenu img {
   width: 150px;
@@ -57,17 +65,23 @@ main {
 .categorymenu a:hover h2 {
   color: #b22f3f;
 }
+
 /*styling af h2*/
 .categorymenu h2 {
   margin-left: 30px;
 }
 
-/*MOBILESITE*/ /*MOBILESITE*/
-/*MOBILESITE*/ /*MOBILESITE*/
-/*MOBILESITE*/ /*MOBILESITE*/
-/*MOBILESITE*/ /*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
+/*MOBILESITE*/
 
 @media screen and (max-width: 768px) {
+
   /*OVERSKRIFT M. SVAMPE PÅ*/
   .svampebaggund {
     width: 350px;
@@ -76,6 +90,7 @@ main {
     margin-top: 80px;
     display: block;
   }
+
   /*CATEGORY-MENU - MOBILESITE: grid*/
   .categorymenu {
     display: grid;
@@ -84,6 +99,7 @@ main {
     max-width: 400px;
     margin: 80px auto;
   }
+
   /*CATEGORY-MENU - MOBILESITE: flexbox*/
   .categorymenu div {
     display: flex;
@@ -95,11 +111,13 @@ main {
     text-decoration: none;
     align-items: end;
   }
+
   /*styling af svampe-billederne i menuen*/
   .categorymenu img {
     width: 140px;
     height: 140px;
   }
+
   /*styling af teksten i menuen*/
   .categorymenu a {
     text-decoration: none;
@@ -113,5 +131,5 @@ main {
     text-decoration: none;
     align-items: end;
   }
-  
+
 }
