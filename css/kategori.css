@@ -1,105 +1,88 @@
-/*billede af 4 svampe og container dertil*/
+/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
+/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
+/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
 
+/*billede af 4 svampe og container dertil*/
 .svampebaggund {
   width: 700px;
   height: auto;
-  margin-top: 20px;
+  margin-top: 80px;
   margin-left: 400px;
+  margin-bottom: 80px;
 }
 
-.category {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -350%);
-  font-size: 40px;
-}
-/*styling af h2*/
-.mushrooms {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -430%);
-  color: #b22f3f;
-  font-size: 1.5rem;
-}
-
+/*CATEGORY-MENU, LAVET M. GRID*/
 .categorymenu {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: 1fr;
   gap: 20px;
   max-width: 400px;
-  margin-top: 80px;
+  /* margin: 80px auto; */
+  margin-left: 320px;
 }
 
+/*CATEGORY-MENU, LAVET M. flexbox*/
 .categorymenu div {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: center;
-  width: 400px;
-  border-bottom: 2px solid #b22f3f;
-  margin-left: 20px;
-  text-decoration: none;
+  justify-content: center;
   align-items: end;
+  text-align: end;
+  width: 850px; /*længde på streg under menu-tekst*/
+  border-bottom: 2px solid #b22f3f;
+  /* text-decoration: none; */
+  padding: 10px 0;
+  margin: auto;
 }
 
+/*skriftstr i menu*/
+.categorymenu h2 {
+  font-size: 1.2rem;
+}
+/*svampe-billeder i menu*/
 .categorymenu img {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
 }
 
+/*styling af link*/
 .categorymenu a {
   text-decoration: none;
   align-items: end;
   color: #4e6e58;
 }
 
+/*hover-effekt på tekst i menu*/
 .categorymenu a:hover h2 {
   color: #b22f3f;
 }
-
+/*styling af h2*/
 .categorymenu h2 {
   margin-left: 30px;
-  font-size: 1.2rem;
 }
+
+/*MOBILESITE*/ /*MOBILESITE*/
+/*MOBILESITE*/ /*MOBILESITE*/
 /*MOBILESITE*/ /*MOBILESITE*/
 /*MOBILESITE*/ /*MOBILESITE*/
 
 @media screen and (max-width: 768px) {
+  /*OVERSKRIFT M. SVAMPE PÅ*/
   .svampebaggund {
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-    width: 70px;
+    width: 350px;
     height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: block;
   }
-
-  .category {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -350%);
-    font-size: 40px;
-  }
-  /*styling af h2*/
-  .mushrooms {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -430%);
-    color: #b22f3f;
-    font-size: 1.5rem;
-  }
-
+  /*CATEGORY-MENU - MOBILESITE: grid*/
   .categorymenu {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
     max-width: 400px;
-    margin-top: 80px;
+    margin: 80px auto;
   }
-
+  /*CATEGORY-MENU - MOBILESITE: flexbox*/
   .categorymenu div {
     display: flex;
     justify-content: flex-start;
@@ -107,28 +90,25 @@
     text-align: center;
     width: 400px;
     border-bottom: 2px solid #b22f3f;
-    margin-left: 20px;
+    text-decoration: none;
+    align-items: end;
   }
-
+  /*styling af svampe-billederne i menuen*/
   .categorymenu img {
     width: 140px;
     height: 140px;
   }
-
+  /*styling af teksten i menuen*/
   .categorymenu a {
     text-decoration: none;
     align-items: end;
     color: #4e6e58;
   }
 
+  /*hover-effekt på teksten i menuen*/
   .categorymenu a:hover {
     color: #0c1910;
     text-decoration: none;
     align-items: end;
-  }
-
-  .categorymenu h2 {
-    margin-left: 30px;
-    font-size: 1.2rem;
   }
 }

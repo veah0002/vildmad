@@ -1,6 +1,7 @@
 /*************** Reset *********************/
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -15,56 +16,69 @@ img {
   display: block;
 }
 
-body {
-  background-color: #fbf8f5;
-  list-style: none;
-  font-family: "poppins", sans-serif;
+html {
+  --primary: black; /*tekst*/
+  --secondary: #fbf8f5; /*body*/
+  --tertiary: #4e6e58; /*h2*/
+  --quaternary: #b22f3f; /*h1*/
+  --quinary: #304336; /*h3*/
+
+  --primary-font: " poppins", sans-serif;
+  --secondary-font: "luckiest";
+
+  --primary-line-height: 1.5;
+
+  --primary-list-style: none;
+
+  --primary-font-size: 3rem;
+  --secondary-font-size: 2rem;
+  --tertiary-font-size: 28px;
+  --quaternary-font-size: 1rem;
+  --quinary-font-size: 1.5rem;
+
+  /*mangler variabler for tekst str*/
 }
 
-/* main {
-  max-width: 1400px;
-  margin: 20 auto;
-  padding: 40;
-} */
-
-/* footer {
-  background-color: #4e6e58;
-  color: black;
-} */
+body {
+  background-color: var(--secondary);
+  font-family: var(--primary-font);
+  list-style: var(--primary-list-style);
+  line-height: var(--primary-line-height);
+}
 
 /* TEKST START*/
 h1 {
-  font-family: "luckiest";
-  color: #b22f3f;
-  font-size: 3rem;
+  font-family: var(--secondary-font);
+  color: var(--quaternary);
+  font-size: var(--primary-font-size);
   margin-top: 30px;
 }
 
 h2 {
-  font-family: "poppins", sans-serif;
-  color: #4e6e58;
-  font-size: 2rem;
+  font-family: var(--primary-font);
+  color: var(--tertiary);
+  font-size: var(--secondary-font-size);
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 h3 {
-  font-family: "poppins", sans-serif;
-  color: #304336;
-  font-size: 28px;
+  font-family: var(--primary-font);
+  color: var(--quinary);
+  font-size: var(--tertiary-font-size);
 }
 
 p {
-  font-family: "poppins", sans-serif;
-  color: black;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-family: var(--primary-font);
+  color: var(--primary);
+  font-size: var(--quaternary-font-size);
+  line-height: var(--primary-line-height);
 }
 
 a {
-  font-family: "poppins", sans-serif;
-  color: black;
-  font-size: 1rem;
+  font-family: var(--primary-font);
+  color: var(--primary);
+  font-size: var(--quaternary-font-size);
 }
 
 a:hover {
@@ -72,21 +86,36 @@ a:hover {
 }
 
 footer {
-  background-color: #4e6e58;
+  background-color: var(--tertiary);
   padding: 50px;
   margin-top: 150px;
 }
+
 .logo img {
   transform: scale(2);
 }
+
 .grid-1-1 {
   display: grid;
   grid-template-columns: 3fr 1fr;
 }
 
+form p {
+  color: white;
+}
+
+form label {
+  color: white;
+}
+
+form button {
+  background-color: #b5c9bb;
+  color: var(--tertiary);
+}
+
 @media (min-width: 800px) {
   p {
-    font-size: 1.5rem;
-    line-height: 1.5;
+    font-size: var(--quinary-font-size);
+    line-height: var(--primary-line-height);
   }
 }
