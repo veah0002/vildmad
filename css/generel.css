@@ -113,6 +113,10 @@ form button {
   color: var(--tertiary);
 }
 
+main {
+  margin: 20px;
+}
+
 @media (min-width: 800px) {
   p {
     font-size: var(--quinary-font-size);
