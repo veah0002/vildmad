@@ -2,6 +2,7 @@
   position: relative;
   padding: 1%;
 }
+
 .container img {
   height: auto;
   width: 700px;
@@ -12,15 +13,19 @@ a {
   text-decoration: none;
 }
 
-.overskrift {
+h1 {
+  text-align: center;
+}
+
+/* .overskrift {
   font-size: 100px;
   position: absolute;
   left: 18%;
   top: 80%;
-}
-.overskrift h1 {
+} */
+/* .overskrift h1 {
   margin-top: 5px;
-}
+} */
 
 .farve_boks {
   background-color: #b5c9bb;
@@ -96,6 +101,7 @@ a {
   .grid_1_1 {
     grid-template-columns: 1fr;
   }
+
   .container img {
     height: auto;
     width: 300px;
