@@ -27,7 +27,7 @@ main {
     opacity: 50%;
 }
 
-img {
+.billede_list {
     max-width: 60%;
     align-items: center;
     margin-left: 90px;
