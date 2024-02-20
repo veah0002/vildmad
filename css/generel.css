@@ -118,4 +118,7 @@ form button {
     font-size: var(--quinary-font-size);
     line-height: var(--primary-line-height);
   }
+  main {
+    margin: 120px;
+  }
 }
