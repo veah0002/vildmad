@@ -7,7 +7,7 @@
   width: 700px;
   height: auto;
   margin-top: 80px;
-  margin-left: 400px;
+  margin-left: 270px;
   margin-bottom: 80px;
 }
 
@@ -18,7 +18,7 @@
   gap: 20px;
   max-width: 400px;
   /* margin: 80px auto; */
-  margin-left: 320px;
+  margin-left: 200px;
 }
 
 /*CATEGORY-MENU, LAVET M. flexbox*/
@@ -40,8 +40,8 @@
 }
 /*svampe-billeder i menu*/
 .categorymenu img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 /*styling af link*/
