@@ -25,7 +25,7 @@
   gap: 20px;
   max-width: 100%;
   /* margin: 80px auto; */
-  margin-left: 5%;
+  margin-left: 2.5%;
 }
 
 /*CATEGORY-MENU, LAVET M. flexbox*/
@@ -104,7 +104,7 @@
   /*CATEGORY-MENU - MOBILESITE: flexbox*/
   .categorymenu div {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
     width: 100%;
