@@ -111,7 +111,7 @@ footer {
 
 .nyhedsbrev {
   /* Ændrer placeringen af nyhedsbrevet til at starte fra øverst til venstre */
-  align-self: flex-start;
+  /* align-self: flex-start; */
   justify-self: flex-start;
 }
 
