@@ -15,7 +15,7 @@
   align-items: center;
   height: auto;
   text-align: center;
-  margin-bottom: 70px;
+  margin-bottom: 5%;
 }
 
 /*CATEGORY-MENU, LAVET M. GRID*/
@@ -23,9 +23,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
   gap: 20px;
-  max-width: 400px;
+  max-width: 100%;
   /* margin: 80px auto; */
-  margin-left: 200px;
+  margin-left: 5%;
 }
 
 /*CATEGORY-MENU, LAVET M. flexbox*/
@@ -34,7 +34,7 @@
   justify-content: center;
   align-items: end;
   text-align: end;
-  width: 850px;
+  width: 100%;
   /*længde på streg under menu-tekst*/
   border-bottom: 2px solid #b22f3f;
   /* text-decoration: none; */
@@ -98,7 +98,7 @@
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     gap: 20px;
     max-width: 400px;
-    margin: 80px auto;
+    margin: 0;
   }
 
   /*CATEGORY-MENU - MOBILESITE: flexbox*/
@@ -107,16 +107,17 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-    width: 400px;
+    width: 100%;
     border-bottom: 2px solid #b22f3f;
     text-decoration: none;
     align-items: end;
+    margin: 0;
   }
 
   /*styling af svampe-billederne i menuen*/
   .categorymenu img {
-    width: 140px;
-    height: 140px;
+    width: 80px;
+    height: 80px;
   }
 
   /*styling af teksten i menuen*/
