@@ -40,6 +40,24 @@
   position: absolute;
 }
 
+.breadcrumbs {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: var(--tertiary);
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: var(--tertiary);
+}
+
+/* .breadcrumbs .current_page {
+  font-weight: bold;
+  text-decoration: underline;
+
+} */
+
+
 @media screen and (max-width: 768px) {
   h1 {
     display: flex;
