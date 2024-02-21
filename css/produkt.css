@@ -55,6 +55,17 @@
   text-decoration: underline;
 }
 
+.produkt-beskrivelse .overskrift {
+  margin: 7%;
+  margin-top: 0.5%;
+}
+
+.produkt-beskrivelse h2 {
+  margin-top: 7%;
+  margin-left: 7%;
+}
+
+
 /* .breadcrumbs .current_page {
   font-weight: bold;
   text-decoration: underline;
@@ -86,6 +97,6 @@
   .produkt-info,
   .produkt-beskrivelse {
     margin: 30px;
-    height: 375px;
+    height: 575px;
   }
 }
