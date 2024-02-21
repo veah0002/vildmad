@@ -86,10 +86,6 @@ a {
   font-size: var(--quaternary-font-size);
 }
 
-/* a:hover {
-  color: #b5c9bb;
-} */
-
 footer {
   background-color: var(--tertiary);
   padding: 50px;
@@ -103,15 +99,14 @@ footer {
 .grid-1-1-1 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  /* gap: 100px; */
   justify-content: space-between;
   align-items: center;
-  /* text-align: center; */
+}
+.grid-1-1-1 a {
+  text-decoration: none;
 }
 
 .nyhedsbrev {
-  /* Ændrer placeringen af nyhedsbrevet til at starte fra øverst til venstre */
-  /* align-self: flex-start; */
   justify-self: flex-start;
 }
 
