@@ -96,6 +96,25 @@ footer {
   margin-top: 150px;
 }
 
+.socials {
+  color: var(--secondary);
+}
+
+.grid-1-1-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  /* gap: 100px; */
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.nyhedsbrev {
+  /* Ændrer placeringen af nyhedsbrevet til at starte fra øverst til venstre */
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
 .logo img {
   transform: scale(2);
 }
@@ -120,6 +139,10 @@ form button {
 
 main {
   margin: 20px;
+}
+
+.instalogo {
+  width: 10%;
 }
 
 @media (min-width: 800px) {
