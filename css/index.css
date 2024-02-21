@@ -13,7 +13,6 @@
   width: 700px;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -66,7 +65,7 @@ h1 {
 
 .grid_1_1 {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(520px, 1fr));
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -106,5 +105,4 @@ h1 {
   .grid_1_1 {
     grid-template-columns: 1fr;
   }
-
 }

@@ -9,22 +9,3 @@ fetch(`https://oqxpqyntqutkvwkzxvju.supabase.co/rest/v1/vild_mad?season=cs.["${q
 })
   .then((res) => res.json())
   .then(showCategories);
-
-// function showCategories(cats) {
-//   cats.forEach(showCategory);
-// }
-
-// function showCategory(cat) {
-//   //fanger template
-//   const template = document.querySelector("template").content;
-
-//   //cloner
-//   const clone = template.cloneNode(true);
-
-//   //Ændre indhold
-//   clone.querySelector("a").textContent = cat.category;
-//   clone.querySelector("a").href = `produktliste.html?season=${cat.season}`;
-
-//   //appender
-//   document.querySelector(".letterGroup ol").appendChild(clone);
-// }
