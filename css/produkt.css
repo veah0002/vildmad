@@ -51,6 +51,10 @@
   color: var(--tertiary);
 }
 
+.breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
 /* .breadcrumbs .current_page {
   font-weight: bold;
   text-decoration: underline;
