@@ -1,22 +1,21 @@
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/*DESKTOP*/
-/* main {
-  background-image: url("../img/2svampe_baggrund.webp");
-} */
+/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
+/*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/ /*DESKTOP*/
+
 /*billede af 4 svampe og container dertil*/
-.svampebaggund {
+/* .svampebaggund {
   width: 700px;
   height: auto;
   margin-top: 80px;
   margin-left: 270px;
   margin-bottom: 80px;
+} */
+.category-overskrift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  text-align: center;
+  margin-bottom: 70px;
 }
 
 /*CATEGORY-MENU, LAVET M. GRID*/
@@ -81,14 +80,21 @@
 /*MOBILESITE*/
 
 @media screen and (max-width: 768px) {
-
   /*OVERSKRIFT M. SVAMPE PÅ*/
-  .svampebaggund {
+  /* .svampebaggund {
     width: 350px;
     height: auto;
     margin: 0 auto;
     margin-top: 80px;
     display: block;
+  } */
+  .category-overskrift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    margin-top: 70px;
   }
 
   /*CATEGORY-MENU - MOBILESITE: grid*/
@@ -131,5 +137,4 @@
     text-decoration: none;
     align-items: end;
   }
-
 }
